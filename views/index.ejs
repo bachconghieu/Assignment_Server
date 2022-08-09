@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <title>index</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/bea8979b93.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="nav1">
+        <a href="add" style="padding: 10px;margin-top: 25px ;display:inline-block; background-color: #0e7000; color: white; font-weight: bold;text-decoration: none">Thêm ảnh</a>
+</div>
+<div id="content">
+    <div class="container p-5" style="background-color: #eee;">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <% for(var i = 0;i < 4;i++){ %>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top"
+                             src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDu8rl7eXi-MzpPJgHdRFWDe8jy0covQznTEIOZFK_e087BjQ5cUytxPAJ-LTLqw-CoouvsnLSvjETmlZeIyfiGaIBAMU8U4AM3Ikkt2nl86-JVpLFcM8Q3x8Q73j56sY2bCO6ljTR1OE8utMc9cS7fuPTL6d6j4-4yWEUpg_TZgBsx9t1bvgYOcii/w510/Colorful%20space%20scenery%20live%20wallpaper.gif"
+                             style="object-fit: cover;" width="100%" height="500px">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Xem</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Tải xuống</button>
+                                </div>
+                                <!--          <small class="text-muted">9 mins</small>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <% } %>
+        </div>
+        <!-------------------------------->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-5">
+            <% for(var i = 0;i < 4;i++){ %>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top"
+                             src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1fLflTLnHfLXKBZfQTajOYG0ioRgmO_K31IrVMHQSTtuz7uwrBySLzDv_otnrICROCwWNuG0OjX7uTmyhID3QXVamipXVJkLGdpII_XyqrI_y7sAf6OIIJi5_Hl8sNBfkdFVY5sQBTWLPm3W0jiPMcVEekQYSzryrMMI8Kr-sbdWSJzRQpAaPa9Zw/w510/Lonely%20in%20space%20live%20wallpaper.gif"
+                             style="object-fit: cover;" width="100%" height="500px">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Xem</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Tải xuống</button>
+                                </div>
+                                <!--          <small class="text-muted">9 mins</small>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <% } %>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="d-flex">
+        <h6 id="text1" style="color: #6c6c6c">POWERED BY</h6>
+        <h6 id="text2" class="ml-1" style="color: #57a8ff">HÌNH NỀN ĐIỆN THOẠI ĐẸP</h6>
+    </div>
+</footer>
+
+</body>
+</html>
